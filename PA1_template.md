@@ -220,17 +220,14 @@ print(summFilled_median)
 
 We can see how these values compare to the original dataset with values missing:
 
-
-```
-## <!-- html table generated in R 3.2.3 by xtable 1.8-2 package -->
-## <!-- Thu Feb 11 00:01:45 2016 -->
-## <table border=1>
-## <tr> <th>  </th> <th> mean </th> <th> median </th>  </tr>
-##   <tr> <td align="right"> Original </td> <td align="right"> 10766.19 </td> <td align="right"> 10765.00 </td> </tr>
-##   <tr> <td align="right"> After Filling </td> <td align="right"> 10766.19 </td> <td align="right"> 10766.19 </td> </tr>
-##    </table>
-```
-
+<!-- html table generated in R 3.2.3 by xtable 1.8-2 package -->
+<!-- Thu Feb 11 00:15:25 2016 -->
+<table border=1>
+<tr> <th>  </th> <th> mean </th> <th> median </th>  </tr>
+  <tr> <td align="right"> Original </td> <td align="right"> 10766.19 </td> <td align="right"> 10765.00 </td> </tr>
+  <tr> <td align="right"> After Filling </td> <td align="right"> 10766.19 </td> <td align="right"> 10766.19 </td> </tr>
+   </table>
+ 
 The filled dataset has the same mean total number of steps per day as the original dataset - this is maybe unsurprising as the missing values were filled in with the mean of the appropriate interval. The median is now slightly higher (by one step :S) than in the original dataset, and is (weirdly) the same as the mean.
   
 ## Are there differences in activity patterns between weekdays and weekends?

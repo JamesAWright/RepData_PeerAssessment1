@@ -167,13 +167,42 @@ print(summFilled_mean)</code></pre>
 print(summFilled_median)</code></pre>
 <pre><code>## [1] 10766.19</code></pre>
 <p>We can see how these values compare to the original dataset with values missing:</p>
-<pre><code>## &lt;!-- html table generated in R 3.2.3 by xtable 1.8-2 package --&gt;
-## &lt;!-- Thu Feb 11 00:01:45 2016 --&gt;
-## &lt;table border=1&gt;
-## &lt;tr&gt; &lt;th&gt;  &lt;/th&gt; &lt;th&gt; mean &lt;/th&gt; &lt;th&gt; median &lt;/th&gt;  &lt;/tr&gt;
-##   &lt;tr&gt; &lt;td align=&quot;right&quot;&gt; Original &lt;/td&gt; &lt;td align=&quot;right&quot;&gt; 10766.19 &lt;/td&gt; &lt;td align=&quot;right&quot;&gt; 10765.00 &lt;/td&gt; &lt;/tr&gt;
-##   &lt;tr&gt; &lt;td align=&quot;right&quot;&gt; After Filling &lt;/td&gt; &lt;td align=&quot;right&quot;&gt; 10766.19 &lt;/td&gt; &lt;td align=&quot;right&quot;&gt; 10766.19 &lt;/td&gt; &lt;/tr&gt;
-##    &lt;/table&gt;</code></pre>
+<!-- html table generated in R 3.2.3 by xtable 1.8-2 package -->
+<!-- Thu Feb 11 00:15:25 2016 -->
+<table border="1">
+<tr>
+<th>
+</th>
+<th>
+mean
+</th>
+<th>
+median
+</th>
+</tr>
+<tr>
+<td align="right">
+Original
+</td>
+<td align="right">
+10766.19
+</td>
+<td align="right">
+10765.00
+</td>
+</tr>
+<tr>
+<td align="right">
+After Filling
+</td>
+<td align="right">
+10766.19
+</td>
+<td align="right">
+10766.19
+</td>
+</tr>
+</table>
 <p>The filled dataset has the same mean total number of steps per day as the original dataset - this is maybe unsurprising as the missing values were filled in with the mean of the appropriate interval. The median is now slightly higher (by one step :S) than in the original dataset, and is (weirdly) the same as the mean.</p>
 </div>
 <div id="are-there-differences-in-activity-patterns-between-weekdays-and-weekends" class="section level2">
